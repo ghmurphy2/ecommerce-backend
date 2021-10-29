@@ -19,6 +19,7 @@ router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   // pass product tag, remember info tag
+  // custom error messages? 500 as place holder
   try {
     const result = await Tag.findAll({
       include: [{ model: Product, through: ProductTag, as: 'product_info' }],

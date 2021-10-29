@@ -14,15 +14,28 @@ router.get('/', async (req, res) => {
     });
     res.status(200).json(result);
   } catch (err) {
-    res.status(418).json(err);
+    res.status(500).json(err);
   }
 });
-
+// copy and specify 
 // get one product
 router.get('/:id', async (req, res) => {
-
+  try {
+    const result = await Product.findAll({
+      include: [
+        { model: Category },
+        { model: Tag, through: ProductTag, as: 'product_info' },
+      ],
+      where: {
+        id: req.params.id,
+      },
+    });
+    res.status(200).json(result);
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
-// create new product
+// create new product needs work?
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
