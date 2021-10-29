@@ -66,8 +66,6 @@ router.put('/:id', async (req, res) => {
     res.status(500).json('Invalid update');
   }
 });
-
-router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
   router.delete('/:id', async (req, res) => {
     try {
@@ -79,6 +77,6 @@ router.delete('/:id', async (req, res) => {
       res.status(500).json(err);
     }
   });
-});
+
 
 module.exports = router;
