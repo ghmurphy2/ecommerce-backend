@@ -1,4 +1,4 @@
-​
+​#E-Commerce Backend Application
 ## Table of contents
 ​
 - [General info](#General-Info)
@@ -6,83 +6,41 @@
 - [Containers](#Containers)
 - [Deployment](#Deployment)
 - [Code Overview](#Code-Overview)
-- [Summary](#Summary)
-- [CSS style](#CSS-style)
-- [Routing Explained](#Routing-Explained)
+- [Video Demo and Instructions](#Video-Demo-and-Instructions)
+-
 ​
 ​
 ## General-Info
-​
-General description here
+
+This project is a base level database with interactions for veiwing, updating, and deleting products and categories based on ID numbers.  Most of the code was provided by instructors but the routes and models were built out to specifications to allow these interactions. 
 ​
 This project utilizes a full MERN stack in order to CRUD data and display it realtime on visualizations. 
-- Technology1
-- Technology2
-- Technology3
-- Technology4
+- Node.js
+- MySql2
+- Insomnia(as used in istructional video to show case routes)
+- Express
 ​
-Deployed link: 
-​
-Landing page 
-​
-![Image](assets/landingpage.png)
-​
-## Technologies
-​
-Project is created with:
-​
-- [React](https://reactjs.org/)
-- [React-Router](https://reacttraining.com/react-router/)
-- [React-Redux](https://react-redux.js.org/)
-- [Passport.js](http://www.passportjs.org/)
-- [Material-UI](https://material-ui.com/)
-- [JavaScript](https://www.javascript.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDb](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [Socket.io](https://socket.io/)
-- [Bcrypt.js](https://www.npmjs.com/package/bcrypt)
-- [React-Chartjs-2](https://github.com/jerairrest/react-chartjs-2)
-​
-## Containers
-​
-![Image](assets/containers.png)
 ​
 ## Deployment
 ​
 Download the repository
-​
-- Copy the repo
-- In your terminal, cd to the CRM folder directory, `$npm i`
-- To run on browser: `npm start`
-- You can also use the heroku-link for a demo:
-- Deployed link: 
-​
-## Code Overview
-​
-- Basic overview
-​
-## Summary
-​
-- This project is a mock-CRM for a start-up/small brewery company. 
-​
-## CSS style
-​
-- This part we explain the CSS style 
+
+- https://github.com/ghmurphy2/ecommerce-backend
 ​
 ​
-## Routing-Explained
+## Video Demo and Instructions
+
+Be sure to install all required modules before running and follow along with the video for proper use and order of operations. 
+### Setup and Installation Video
+https://watch.screencastify.com/v/HXMfLbk8x0ogTanYBR7r
+
+### Use and Utility
+
 ​
-- Routing 
-​
-![Image](assets/routing.png)
 ​
 ## Authors
 ​
-- John Doe
-- Jane Doe
+- Gavin Murphy
 ​
 ## License
 ​
