@@ -26,8 +26,6 @@ ProductTag.init(
           key: 'id',
 
       }
-      
-    // define columns
   },
 },
 },
