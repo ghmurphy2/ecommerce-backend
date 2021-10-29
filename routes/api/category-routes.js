@@ -14,21 +14,27 @@ router.get('/', async (req, res) => {
 });
  // find one category by its `id` value
   // be sure to include its associated Products
-router.get('/:id', async (req, res) => {
- 
-  try {
-    const result = await Category.findAll({
-      where: {
-        id: req.params.id,
-      },
-      include: [{ model: Product }],
-    });
-
-    if (!result) {
-      res.status(500).json({ message: "Non-exsistant category" });
-      return;
-    });
-  };
+  router.get('/:id', async (req, res) => {
+    try {
+      const result = await Category.findAll({
+        where: {
+          id: req.params.id,
+        },
+        include: [{ model: Product }],
+      });
+  
+      if (!result) {
+        res.status(404).json({ message: "Doesn't exist" });
+        return;
+      }
+  
+      res.status(200).json(result);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  });
+  
+  
 
 // create a new category
 router.post('/', async (req, res) => {
