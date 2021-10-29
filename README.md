@@ -30,12 +30,14 @@ Download the repository
 ​
 ## Video Demo and Instructions
 
+![Image](img/product.png)
+
 Be sure to install all required modules before running and follow along with the video for proper use and order of operations. 
 ### Setup and Installation Video
 https://watch.screencastify.com/v/HXMfLbk8x0ogTanYBR7r
 
 ### Use and Utility
-
+https://watch.screencastify.com/v/grx4OLyDSUfvDIczLhi2
 ​
 ​
 ## Authors
